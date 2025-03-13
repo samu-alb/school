@@ -75,6 +75,35 @@ body {
     color: #343434;
 }
 
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: auto;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 1px;
+    font-size: 1em;
+    width: 60px;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+}
+
 /* Barra di navigazione Scuola, Servizi, ecc.. */
 
 nav {
@@ -140,4 +169,119 @@ nav {
 .testo-immagine-sfondo p {
     font-size: 1.5em;
     margin-top: 10px;
+}
+
+/* Materie */
+
+.materie {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.materia {
+    max-width: 300px;
+}
+
+.materia img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.materia h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* In Evidenza */
+
+.titolo-evidenza {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    width: 80%;
+}
+
+.contenitori-evidenza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contenuti-evidenza-1,
+.contenuti-evidenza-2,
+.contenuti-evidenza-3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 10px;
+    width: 70%;
+}
+
+.contenuto {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.contenuto img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.testo {
+    max-width: 370px;
+}
+
+.testo h3 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #222;
+}
+
+.testo p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 5px 8px;
+    background: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.85em;
+}
+
+.btn:hover {
+    background: #005bb5;
+}
+
+.scopri-di-piu {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #222;
+    margin-top: 15px;
+}
+
+.scopri-di-piu h2 {
+    margin: 0;
 }
