@@ -155,9 +155,9 @@ nav {
 }
 
 .testo-immagine-sfondo {
-    background-color: #004080;
+    background-color: rgba(0, 64, 128, 0.9);
     padding: 20px;
-    border-radius: 1px;
+    border-radius: 4px;
 }
 
 .testo-immagine-sfondo h1 {
@@ -234,7 +234,7 @@ nav {
     background: #f5f5f5;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     width: 300px;
 }
 
@@ -252,6 +252,7 @@ nav {
     margin: 0;
     font-size: 1.1em;
     color: #222;
+    text-decoration: none;
 }
 
 .testo p {
